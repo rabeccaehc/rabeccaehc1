@@ -1,0 +1,153 @@
+<DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DR .PAUL RAJ ENGINEERING COLLEGE</title>
+    <style>
+
+       body {
+            background-image: ur('img2');
+            margin: 1;
+            padding: 1;
+            background-color: purple;
+            background-size: cover; /* adjust as needed*/
+            }
+
+            <script>
+        
+              header {
+            background-color: purple;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            color: blue;
+            padding: 10px;
+            font-size: x-large;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 1;
+            text-align: center;
+            font-size: large;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+            font-size: x-large;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            font-size: large;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color:black;
+        }
+        p {
+            line-height: 1.7;
+        }
+
+        footer {
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body background ="images/back.jpeg">
+    <header>
+        <h1>WELCOME TO DR.PAUl RAJ ENGINEERING COLLEGE</h1>
+    </header>
+
+    <h1>WELCOME</h1>
+</header>
+
+<nav>
+    <ul>
+        <a href="#">HOME </a></li>
+        <a href="#">ABOUT </a></li>
+        <a href="#">PROGRAMS </a></li>
+        <a href="#">ADMISSIONS </a></li>
+        <a href="#">CONTACT </a></li>
+    </ul>
+Late Rev.Dr. Satish Paul Raj established the college in 1997 in the Temple Town of 
+Bhadrachalam to impart
+ Technical Education to the students in the agency area and thus contribute for the
+  development the down trodden. 
+His philanthropy and missionary zeal made his vision complete in the establishment of 
+an Engineering institute with excellent infrastructural facilities
+ as a very first engineering college in the Private Sector in
+ Khammam district of Andhra pradesh.
+The location of the College in a serene and calm atmosphere on the banks of godavari 
+river has made it as an ideal place for scholastic pursuits. 
+The college is about 3km from interstate bus stand of Bhadrachalam ,
+ 43 km from the Bhadrachalam road railway station and around 210km from Gannavaram Airport 
+ of Vijayawada
+ </nav>
+<div class="container">
+    <h2>Aboutus
+        v Laxmi Devi Pet, Yetapaka, Bhadrachalam, Khammam, Telangana . 507111
+       PHONE NO : 087432 16128
+        Suggest an edit · Your business? Claim now
+        Add more information
+        Add hours.
+             
+         </h2>
+    <p></p>
+</div>
+<body>
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+<script>
+        function validateForm() {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+
+            if (name === "" || email === "" || password === "") {
+                alert("All fields are required");
+                return false;
+            }
+
+            if (!isValidEmail(email)) {
+                alert("Invalid email address");
+                return false;
+            }
+
+            // Add more validation checks for the password, e.g., minimum length, character requirements, etc.
+
+            return true;
+        }
+        
+        function isValidEmail(email) {
+            const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            return emailRegex.test(email);
+        }
+    </script>
+<footer>
+    &copy; 2023 paul Raj Engineering College
+</footer>
+</body>
+</html>
